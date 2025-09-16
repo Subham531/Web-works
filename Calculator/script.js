@@ -52,7 +52,11 @@ function calculate(value){
             result = num1 * num2;
             break;
         case '/':
+<<<<<<< HEAD
             result = num2 === 0 ? Infinity :num1/num2;
+=======
+            result = num2 === 0 ? Infinity : num1/num2;
+>>>>>>> e54b9ec0ab1c07a005e65da703eeb3aed1573bc6
             break;
         default:
             result = "Error";
